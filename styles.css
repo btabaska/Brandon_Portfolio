@@ -1,14 +1,15 @@
-footer {
+/* footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   background-color: #333;
   color: #fff;
-}
+} */
 
+/* Credit to coolbackgrounds.io for the open licenced background image */
 body {
-  background: url("https://source.unsplash.com/twukN12EN7c/1920x1080") no-repeat
-    center center fixed;
+  background: url("./Assets/Images/cool-background.png") no-repeat center center
+    fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
