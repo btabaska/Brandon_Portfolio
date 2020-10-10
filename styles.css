@@ -15,3 +15,6 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
+p {
+  font-family: "Raleway", sans-serif;
+}

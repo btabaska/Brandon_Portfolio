@@ -1,85 +1,28 @@
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+- This project is my first Portfolio site made in CSS and HTML using Bootstrap \*
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application.
+The Project contains 3 pages:
 
-## Directions
+- Home
+- Portfolio
+- Contact
 
-First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
+Home:
+This page is current the landing page for the site. It contains a responsive image and wrapping text about me. On the bottom I used Bootstraps buttons to add links to the page. The links also contain "FontAwesome" icons that help describe where the links lead to. I also used a Google Font to make the text on the page break up a little more and look more readable.
 
-- Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
+Portfolio:
+I used the same container style I built with Home to add a grid system in Bootstrap to allow the 5 images of my cat to sit nested into the page. They scale pretty well and remain in the container no matter how you resize the page.
 
-- Using Bootstrap, develop your portfolio site with the following items:
+Contact:
+I reused the same container style again and added 3 forms and a button to finish off the contact page. This was the easiest page of the bunch using Bootcamp since all elements could just be added as a new row without having to worry about columns
 
-  - A navbar
+The page also features a navbar and a footer that follow the same styling that was recommended. I added in the JavaScript tag from Bootcamp to also allow the navbar to function in narrower mobile style viewports.
 
-  - A responsive layout
+The Footer is currently still set to stay on the bottom. It is not sticky because in larger viewports the navbar's auto margin tag would break and stop applying margin to the footer and it would come up to halfway up the page. I did not have time to fix this since the research I did indicated that it was due to the mix of height style tags that I was using causing problems with the auto margin on the footer being able to calculate the margin required. I decided to leave it as as #TODO that I will resolve later if I have time.
 
-  - Responsive images
+The CSS on the site is minimal and currently only is used to modify the <p> tag on the Home page to import the Google Font and secondly to set the background of the site to a static image. /_ Credit to coolbackgrounds.io for the open licenced background image _/
 
-- The Bootstrap portfolio should minimize the use of media queries.
+Current #TODOs for the site:
 
-- Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
-
-### Hints
-
-- Use Bootstrap's grid system (containers, rows, and columns).
-
-- On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
-
-- Use an HTML validation service to ensure that each page has valid HTML.
-
-### Minimum Requirements
-
-- Functional, deployed application
-
-- GitHub repository with README describing the project
-
-- Navbar must be consistent on each page.
-
-- Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
-
-- All links must work.
-
-- Must use semantic html.
-
-- Each page must have valid and correct HTML. (use a validation service)
-
-- Must contain your personalized information. (bio, name, images, links to social media, etc.)
-
-- Must properly utilize Bootstrap components and grid system.
-
-### Bonus
-
-- Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-- Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-- Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-- Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-- Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-- Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-- Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-- The URLs of the deployed applications
-
-- The URLs of the GitHub repositories
-
----
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+- Add more cat pictures
+- Fix the big with the Sticky Footer's auto margin tag not getting the correct height calculation for the page
+- work on spacing the images in the Portfolio grid better when in mobile view (adding a top margin to each picture)
