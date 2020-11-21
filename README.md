@@ -28,3 +28,5 @@ Current #TODOs for the site:
 - Add more cat pictures
 - Fix the big with the Sticky Footer's auto margin tag not getting the correct height calculation for the page
 - work on spacing the images in the Portfolio grid better when in mobile view (adding a top margin to each picture)
+
+Link: https://btabaska.github.io/Brandon_Portfolio/
